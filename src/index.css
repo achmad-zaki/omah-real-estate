@@ -1,0 +1,42 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+
+  body {
+    @apply font-poppins bg-bone min-h-[180vh] tracking-[0.01em] 
+  }
+}
+
+@layer utilities {
+  .border-solid {
+    @apply border border-black
+  }
+
+  .active {
+    @apply text-[#212121]
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white text-[16px]
+  }
+
+  .menu-dropdown {
+    @apply absolute bg-white w-full left-0 top-14 z-10 list-none flex flex-col gap-y-2 py-3 px-3 cursor-pointer shadow
+  }
+
+  .list-dropdown {
+    @apply hover:bg-primary hover:text-white px-3 py-1
+  }
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #F58634;
+}
