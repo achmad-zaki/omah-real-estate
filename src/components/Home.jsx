@@ -1,6 +1,8 @@
 import FilterSearch from './FilterSearch'
 import Container from './Container'
 
+import ImgHero from "../assets/hero-image.png"
+
 const Home = () => {
   return (
     <section id='home' className='pt-40'>
@@ -17,7 +19,7 @@ const Home = () => {
         </div>
       </Container>
       <div className='relative lg:container lg:mr-auto py-14'>
-        <img src="/src/assets/hero-image.png" alt="house-img" />
+        <img src={ImgHero} alt="house-img" />
         <div className='relative max-w-5xl -top-14 md:ml-auto'>
           <FilterSearch />
         </div>
