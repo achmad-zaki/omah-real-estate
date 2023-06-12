@@ -16,17 +16,17 @@ const Header = ({ children, className }) => {
   )
 }
 
-const Body = ({ children }) => {
+const Body = ({ children, className }) => {
   return (
-    <div className='pt-4'>
+    <div className={className}>
       {children}
     </div>
   )
 }
 
-const Footer = ({ children }) => {
+const Footer = ({ children, className }) => {
   return (
-    <div className='text-primary text-2xl font-medium mt-3'>
+    <div className={className}>
       {children}
     </div>
   )

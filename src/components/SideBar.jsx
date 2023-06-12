@@ -9,7 +9,7 @@ const SideBar = () => {
         <div className="flex flex-col h-full">
             <div className="self-end px-3 mb-3">
                 <button onClick={handleShow} className="">
-                    <IoClose size={40}/>
+                    <IoClose size={35}/>
                 </button>
             </div>
             <ul className="h-full flex flex-col items-center justify-center gap-y-10">
@@ -20,6 +20,7 @@ const SideBar = () => {
                         </li>
                     )
                 })}
+                <button className="btn-primary px-10 py-5">Login</button>
             </ul>
         </div>
     </div>

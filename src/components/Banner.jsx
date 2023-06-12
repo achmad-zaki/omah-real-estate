@@ -3,7 +3,7 @@ import Container from './Container'
 
 import ImgHero from "../assets/hero-image.png"
 
-const Home = () => {
+const Banner = () => {
   return (
     <section id='home' className='pt-40'>
       <Container>
@@ -28,4 +28,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Banner

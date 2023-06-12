@@ -11,7 +11,7 @@
   }
 
   body {
-    @apply font-poppins bg-bone min-h-[180vh] tracking-[0.01em] 
+    @apply font-poppins bg-bone tracking-[0.01em] 
   }
 }
 

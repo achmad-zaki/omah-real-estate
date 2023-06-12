@@ -5,14 +5,16 @@ import './index.css'
 // context
 import HeaderProvider from './context/HeaderContext.jsx'
 import HouseContext from './context/HouseContext.jsx'
-import ReviewContext from './context/ReviewContext.jsx'
+
+import { BrowserRouter as Router } from 'react-router-dom'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <HeaderProvider>
-    <HouseContext>
-      <ReviewContext>
+  <Router>
+    <HeaderProvider>
+      <HouseContext>
         <App />
-      </ReviewContext>
-    </HouseContext>
-  </HeaderProvider>
+      </HouseContext>
+    </HeaderProvider>
+  </Router>
 )

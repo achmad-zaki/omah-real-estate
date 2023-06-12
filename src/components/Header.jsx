@@ -27,9 +27,9 @@ const Header = () => {
                             </li>
                         )
                     })}
-                    <button className="btn-primary py-5 px-10 flex-shrink-0">
+                    <a href="#" className="btn-primary py-5 px-10 flex-shrink-0">
                         Log in
-                    </button>
+                    </a>
                 </ul>
             </Container>
         </header>
