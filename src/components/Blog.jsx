@@ -13,10 +13,10 @@ const Blog = () => {
                     </h3>
                     <div className='text-[24px] font-medium underline cursor-pointer'>View all</div>
                 </div>
-                <div className='flex flex-col gap-x-10 items-start md:flex-row mt-14'>
-                    <CardItem>
+                <div className='flex flex-col gap-x-10 lg:items-start lg:flex-row mt-14'>
+                    <CardItem className="">
                         <CardItem.Header>
-                            <img src={ImgBlog} className='max-h-[400px]' alt="" />
+                            <img src={ImgBlog} className='w-full lg:max-h-[400px]' alt="" />
                         </CardItem.Header>
                         <CardItem.Body className="mt-6">
                             <h1 className='text-2xl font-medium'>Tips and tricks in choosing a house</h1>
@@ -24,23 +24,23 @@ const Blog = () => {
                         </CardItem.Body>
                     </CardItem>
                     <div className='flex flex-col gap-y-6 mt-10'>
-                        <div className='flex items-center gap-x-3'>
-                            <div className='flex flex-col gap-y-5'>
+                        <div className='flex flex-col-reverse lg:flex-row items-center gap-x-3 gap-y-2 '>
+                            <div className='flex flex-col  items-start w-full gap-y-2'>
                                 <h1 className='text-xl md:text-2xl font-medium'>Creating a clean
                                     and elegant home
                                 </h1>
                                 <p className='text-[16px] text-[#828282]'>Albert firdaus</p>
                             </div>
-                            <img src={ImgContent} className='max-h-[184px]' alt="" />
+                            <img src={ImgContent} className='w-full object-cover object-center md:max-h-[184px]' alt="" />
                         </div>
-                        <div className='flex items-center gap-x-3'>
-                            <div className='flex flex-col gap-y-5'>
+                        <div className='flex flex-col-reverse lg:flex-row items-center gap-x-3 gap-y-2 '>
+                            <div className='flex flex-col gap-y-2'>
                                 <h1 className='text-xl md:text-2xl font-medium'>Creating a clean
                                     and elegant home
                                 </h1>
                                 <p className='text-[16px] text-[#828282]'>Albert firdaus</p>
                             </div>
-                            <img src={ImgContent} className='max-h-[184px]' alt="" />
+                            <img src={ImgContent} className='w-full object-cover object-center md:max-h-[184px]' alt="" />
                         </div>
                     </div>
                 </div>
